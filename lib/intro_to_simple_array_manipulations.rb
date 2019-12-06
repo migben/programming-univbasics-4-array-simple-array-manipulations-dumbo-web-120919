@@ -1,19 +1,10 @@
-my_arr = []
+def using_shift(array)
+  array.shift()
+end
 
-my_arr.push("potato")
+def shift_with_args(array)
+  array.shift(2)
+end
 
-my_arr.push("car")
-
-my_arr.push("fish")
-
-my_arr.unshift("cat")
-
-my_arr.pop(2)
-
-my_arr.shift()
-
-his_arr = ["people", true]
-
-my_arr.concat(his_arr)
-
-my_arr.pop()
+def using_concant(array)
+  array.concat()
